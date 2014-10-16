@@ -1,9 +1,7 @@
-Common
+Person
 ======
 
-Person Library for Black Projects.
-
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/eb624518-0c1e-47a6-a91b-73edf2244e2e/big.png)](https://insight.sensiolabs.com/projects/eb624518-0c1e-47a6-a91b-73edf2244e2e)
+Person Library for Black projects.
 
 Installation
 ------------
