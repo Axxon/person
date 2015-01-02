@@ -3,6 +3,7 @@
 namespace Black\Component\Person\Domain\Model;
 
 use Black\DDD\DDDinPHP\Domain\Model\Entity;
+use Email\EmailAddress;
 
 /**
  * Class Person
@@ -35,30 +36,16 @@ class Person implements Entity
     public function __construct(
         PersonId $personId,
         Name $name,
-        $email,
-        $gender,
-        $honorificPrefix,
-        $jobTitle,
-        $telephone,
-        $mobile,
-        $faxNumber,
-        $picture
+        EmailAddress $email
     ) {
         $this->personId = $personId;
         $this->name = $name;
         $this->email = $email;
-        $this->gender = $gender;
-        $this->honorificPrefix = $honorificPrefix;
-        $this->jobTitle = $jobTitle;
-        $this->telephone = $telephone;
-        $this->mobile = $mobile;
-        $this->faxNumber = $faxNumber;
-        $this->picture = $picture;
     }
 
     public function getPersonId()
     {
-        return $this->personId->getValue();
+        return $this->personId;
     }
 
     public function getName()
