@@ -14,12 +14,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Black\\Component\\Person\\": "src/Black/Component/Person/"
+            "Black\\Component\\Person\\": "src/Black/Component/Person"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "spec\\": "spec/"
+            "spec\\": "spec"
         }
     },
     "require": {
